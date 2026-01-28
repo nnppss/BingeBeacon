@@ -6,13 +6,14 @@
 
 ---
 
-## Backend (Go) Implementation
+## Backend (Go)
 
-A Go backend is being implemented to support the TV/Movie alert system. It will provide API endpoints for:
+A Go backend is being built to power BingeBeacon’s TV/Movie alert system.
 
-- Show/movie alerts (tracking, notifications)
-- Timeline management (new episodes, seasons, etc.)
-- Integration with OMDB, TMDB, and TheTVDB for metadata and episode tracking
-- Push notifications (for tracked shows, new seasons, new episodes, favorites)
+It will handle:
+- Creating/managing show/movie alerts
+- Timeline updates for new episodes/seasons
+- Metadata + episode tracking via OMDB, TMDB, and TheTVDB
+- Notifications for tracked shows (new episodes/seasons, favorites)
 
-**Note:** Database integration is marked as TODO and will be implemented later.
+**Note:** Database persistence is currently **TODO** and will be added later.
